@@ -1,0 +1,4 @@
+"W5500.obj",
+"main.obj" 
+TO "W5500" 
+RAMSIZE(256) 

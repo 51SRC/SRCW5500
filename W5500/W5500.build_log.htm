@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\Mac\Home\Documents\Project\SRC\SRCW5500\W5500\W5500.uvproj
+Project File Date:  07/25/2020
+
+<h2>Output:</h2>
+Rebuild target 'W5500'
+compiling W5500.c...
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE_W5500_SOCK_4BYTE?W5500
+    CALLER1: ?PR?TIMER4_INTERRUPT?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CHECKBCC?MAIN
+    CALLER1: ?PR?TIMER4_INTERRUPT?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE_SOCK_DATA_BUFFER?W5500
+    CALLER1: ?PR?TIMER4_INTERRUPT?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=9.0 xdata=1186 code=4573
+creating hex file from "W5500"...
+"W5500" - 0 Error(s), 3 Warning(s).
